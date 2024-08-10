@@ -6,6 +6,7 @@ body {
     background-color: #000; /* Black background */
     margin: 0;
     user-select: none;
+    overflow: hidden;
     cursor: url('https://github.com/antiden/macOS-cursors-for-Windows/raw/main/1.%20Sierra%20and%20newer/1.%20No%20Shadow/1.%20Normal/Normal.cur'), auto;
 }
 
