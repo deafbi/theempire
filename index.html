@@ -1,0 +1,138 @@
+<!-- public/views/home.php -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/home.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <title>The Empire</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/a2uoFtS.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/a2uoFtS.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/a2uoFtS.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://i.imgur.com/a2uoFtS.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://i.imgur.com/a2uoFtS.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="https://i.imgur.com/a2uoFtS.png">
+    <link rel="mask-icon" href="https://i.imgur.com/a2uoFtS.png" color="#5bbad5">
+    <meta name="theme-color" content="#000000">
+</head>
+
+<body>
+    <div id="overlay" class="overlay"></div>
+    <nav>
+        <div class="center_content">
+            <div class="topPart">
+                <a href="#Home" class="logo">
+                    <div class="circle">
+                        <img src="https://i.imgur.com/a2uoFtS.png" alt="">
+                    </div>
+                    <h5>The Empire</h5>
+                </a>
+
+                <ul class="desktopList">
+                    <li><a href="#Pricing">News</a></li>
+                    <li><a href="#Features">Giveaways</a></li>
+                    <li><a href="#FAQ">Market</a></li>
+                </ul>
+
+                <div class="btns desktopBTN">
+                    <a target="_blank" href="https://vouched.gg/thread.php?tid=19997055">Join</a>
+                    <a target="_blank" href="https://vouched.gg">Vouched.gg</a>
+                </div>
+
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="bottomPart">
+                <ul>
+                    <li><a href="#Pricing">News</a></li>
+                    <li><a href="#Features">Giveaways</a></li>
+                    <li><a href="#FAQ">Market</a></li>
+                </ul>
+
+                <div class="btns">
+                    <a target="_blank" href="https://vouched.gg/thread.php?tid=19997055">Join</a>
+                    <a target="_blank" href="https://vouched.gg">Vouched.gg</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Home">
+        <div class="center_content">
+
+            <h1>Welcome to</h1>
+
+            <div id="evil">
+                <h1 data-value="The Empire">The Empire</h1>
+            </div>
+
+            <p>
+            The leading 
+            <span class="boldText">community driven group</span> 
+            focused on growing and expanding vouched.gg as a forum, with 
+            giveaways and get-togethers.
+            </p>
+
+            <a href="https://vouched.gg/thread.php?tid=19997055" target="_blank" class="headerSection_Btn">
+                Get Started
+                <span class="span01"></span>
+                <span class="span02"></span>
+                <span class="span03"></span>
+                <span class="span04">Join Us</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Premium -->
+    <!-- ======= -->
+    <section id="Pricing">
+        <div class="contain">
+            <div id="evil">
+                <h1 style="font-size: 40px !important; user-select: none;" data-value="Empire News">Empire News</h1>
+            </div>
+            <a href="https://vouched.gg/forum.php?fid=64" target="_blank" class="newsbtn">
+                View News
+            </a>
+
+        </div>
+    </section>
+
+    <!-- Patners -->
+    <!-- ======= -->
+    <section id="Features">
+        <div class="contain">
+            <img src="https://i.imgur.com/a2uoFtS.png" style="width: 200px; height: 200px; background: black; border-radius: 7px; padding: 10px;" alt="">
+            <div class="titleitem" style="width: 100%; text-align: center;"><span>Royal Crown</span></div>
+            <div class="desc" style="max-width: 200px; text-align: center;color: white;word-wrap: break-word;">Giveaway for Royal Crown Item 24h</div>
+            <a href="https://vouched.gg/thread.php?tid=66334574" target="_blank" class="newsbtn">
+                Enter Giveaway
+            </a>
+        </div>
+    </section>
+
+    <!-- Discord -->
+    <!-- ======= -->
+    <section id="FAQ"></section>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+
+                }
+            }
+        }
+    </script>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
